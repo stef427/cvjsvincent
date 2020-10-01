@@ -1,2 +1,2 @@
-document.getElementById("apropos").style.color = "#fff";
+document.getElementById("apropos").style.color = "white";
 document.getElementById("moi").style.listStyle = "none";

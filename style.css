@@ -82,6 +82,7 @@
  }
  
  h2 {
+     text-transform: uppercase;
      width: max-content;
      margin: auto;
      padding: 0.5em;
