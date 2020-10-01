@@ -22,7 +22,7 @@
      box-shadow: 0 0 1em pink, 0.2em 0.2em 0.1em;
      border: 0.2em groove indigo;
      padding: 10px 20px;
-     background-color: #b8e;
+     background-color: purple;
  }
  
  a {
@@ -36,29 +36,96 @@
      transition: 0.8s;
  }
  
- #card ul {
+ #apropos {
+     width: max-content;
+     margin: auto;
+ }
+ 
+ #apropos ul {
      border: 0.7em groove rebeccapurple;
-     width: 2&0em;
+     width: 20em;
      height: 10em;
-     background-color: plum;
+     background-color: powderblue;
      text-align: center;
  }
  
  #experiences th {
+     color: violet;
      background-color: powderblue;
      border: 0.1em solid purple;
      width: 19em;
  }
  
  #experiences td {
+     color: blueviolet;
+     text-align: center;
      border: solid 0.1em;
      width: 19em;
-     background-color: steelblue;
+     background-color: powderblue;
  }
  
  #experiences {
      display: flex;
      justify-content: center;
      flex-direction: column;
-     margin: 4em;
+     margin: 2em;
+ }
+ 
+ article {
+     background-color: powderblue;
+     border: 0.1em dashed violet;
+     margin: 1em;
+     padding: 0.5em;
+     font-size: 1.5em;
+     color: white;
+     text-align: justify;
+ }
+ 
+ h2 {
+     width: max-content;
+     margin: auto;
+     padding: 0.5em;
+     color: whitesmoke;
+     text-decoration: underline cadetblue;
+ }
+ 
+ h2:hover {
+     color: indigo;
+ }
+ 
+ .formation img,
+ .loisir img,
+ .plus img {
+     display: inline-block;
+     width: 4em;
+ }
+ 
+ .formation,
+ .loisirs,
+ .plus {
+     margin: 1em;
+     font-size: 1em;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .formation div,
+ .loisirs div {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     color: indigo;
+     transition: 0.5s;
+ }
+ 
+ .loisirs img {
+     width: 8em;
+     height: 8em;
+     border: 0.2em double powderblue;
+ }
+ 
+ .loisirs div:hover {
+     color: greenyellow;
+     transition: 0.5s;
+     transform: scale(1.5);
  }
