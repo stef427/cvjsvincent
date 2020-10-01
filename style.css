@@ -1,0 +1,65 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Balsamiq Sans', cursive;
+     background-color: #b8e;
+ }
+ 
+ .nav {
+     z-index: 9900;
+     width: 100%;
+     position: sticky;
+     top: 0;
+ }
+ 
+ .nav ul {
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+ }
+ 
+ .nav ul li {
+     box-shadow: 0 0 1em pink, 0.2em 0.2em 0.1em;
+     border: 0.2em groove indigo;
+     padding: 10px 20px;
+     background-color: #b8e;
+ }
+ 
+ a {
+     font-size: 18px;
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ 
+ a:hover {
+     color: indigo;
+     transition: 0.8s;
+ }
+ 
+ #card ul {
+     border: 0.7em groove rebeccapurple;
+     width: 2&0em;
+     height: 10em;
+     background-color: plum;
+     text-align: center;
+ }
+ 
+ #experiences {}
+ 
+ #experiences th {
+     background-color: powderblue;
+     border: 0.1em solid purple;
+     width: 19em;
+ }
+ 
+ #experiences td {
+     border: solid 0.1em;
+     width: 19em;
+ }
+ 
+ .exp {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 4em;
+ }

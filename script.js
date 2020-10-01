@@ -1,3 +1,2 @@
-function appears() {
-    document.getElementById("apropos").innerHTML = "Hello World!!"
-}
+document.getElementById("apropos").style.color = "#fff";
+document.getElementById("moi").style.listStyle = "none";
