@@ -44,8 +44,6 @@
      text-align: center;
  }
  
- #experiences {}
- 
  #experiences th {
      background-color: powderblue;
      border: 0.1em solid purple;
@@ -55,9 +53,10 @@
  #experiences td {
      border: solid 0.1em;
      width: 19em;
+     background-color: steelblue;
  }
  
- .exp {
+ #experiences {
      display: flex;
      justify-content: center;
      flex-direction: column;
