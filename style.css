@@ -130,3 +130,13 @@
      transition: 0.5s;
      transform: scale(1.5);
  }
+ 
+ .buttononclick {
+     margin-bottom: 1em;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ button {
+     background-color: yellowgreen;
+ }
